@@ -71,7 +71,8 @@ ESP32's port and writes it to the Arduino's port (see
 
 
 ## Repository Contents
-- `code.txt` - ESP32 and Arduino Nano sketches
+- `esp32/esp32.ino` - ESP32 sketch (DS18B20 reading)
+- `nano/nano.ino` - Arduino Nano sketch (LED logic)
 - `python/` - Python bridge script (`serial_bridge.py`)
 - `images/` - screenshots and photos
 
