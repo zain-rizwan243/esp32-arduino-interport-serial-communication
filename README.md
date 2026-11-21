@@ -42,12 +42,12 @@ ESP32's port and writes it to the Arduino's port (see
 ## Hardware
 - ESP32 [board name]
 - Arduino Nano
-- DS18B20 temperature sensor
+- DS18B20 temperature sensor (data pin on ESP32 GPIO 25)
 - 2 USB cables (one per board)
 - PC (Windows) with two available USB ports
 
 ## Software
-- Arduino IDE
+- Arduino IDE (ESP32 sketch uses the OneWire and DallasTemperature libraries)
 - RealTerm Serial Capture Program v2.0.0.70
 - Python 3 with the `pyserial` library (`pip install pyserial`)
 
@@ -71,8 +71,7 @@ ESP32's port and writes it to the Arduino's port (see
 
 
 ## Repository Contents
-- `esp32/` - ESP32 sketch (DS18B20 reading)
-- `nano/` - Arduino Nano sketch (LED logic)
+- `code.txt` - ESP32 and Arduino Nano sketches
 - `python/` - Python bridge script (`serial_bridge.py`)
 - `images/` - screenshots and photos
 
