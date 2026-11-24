@@ -37,10 +37,10 @@ needed to pass the data between the ports.
 **Method 2: Python script**
 A short script using the `pyserial` library reads each line from the
 ESP32's port and writes it to the Arduino's port (see
-`python/serial_bridge.py`).
+`Serial Bridge.py`).
 
 ## Hardware
-- ESP32 [board name]
+- ESP32 (DOIT ESP32 DevKit V1)
 - Arduino Nano
 - DS18B20 temperature sensor (data pin on ESP32 GPIO 25)
 - 2 USB cables (one per board)
@@ -71,10 +71,9 @@ ESP32's port and writes it to the Arduino's port (see
 
 
 ## Repository Contents
-- `esp32/esp32.ino` - ESP32 sketch (DS18B20 reading)
-- `nano/nano.ino` - Arduino Nano sketch (LED logic)
-- `python/` - Python bridge script (`serial_bridge.py`)
-- `images/` - screenshots and photos
+- `esp32.ino` - ESP32 sketch (DS18B20 reading)
+- `nnano.ino` - Arduino Nano sketch (LED logic)
+- `Serial Bridge.py` - Python bridge script
 
 ## Author
 Zain Rizwan - Electrical Engineer<br>
